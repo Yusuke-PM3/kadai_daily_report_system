@@ -86,11 +86,11 @@ public class Employee {
     public void setPassword(String password){
         this.password = password;
     }
-    public Integer getAdmine_flag(){
+    public Integer getAdmin_flag(){
         return admin_flag;
     }
-    public void setAdmin_flag(Integer admine_flag){
-        this.admin_flag = admine_flag;
+    public void setAdmin_flag(Integer admin_flag){
+        this.admin_flag = admin_flag;
     }
     public Timestamp getCreated_at(){
         return created_at;
