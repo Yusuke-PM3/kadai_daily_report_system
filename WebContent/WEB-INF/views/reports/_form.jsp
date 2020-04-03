@@ -14,7 +14,7 @@
 <br /><br />
 
 <label for="name">氏名</label><br />
-<c:out value="${sessionScoope.login_employee.name}" />
+<c:out value="${sessionScope.login_employee.name}" />
 <br /><br />
 
 <label for="title">タイトル</label><br />
@@ -22,7 +22,7 @@
 <br /><br />
 
 <label for="content">内容</label><br />
-<textarea name="content" rows="10" cols="50">${reportcontent}</textarea>
+<textarea name="content" rows="10" cols="50">${report.content}</textarea>
 <br /><br />
 
 <input type="hidden" name="_token" value="${_token}" />
