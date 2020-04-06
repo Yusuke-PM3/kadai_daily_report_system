@@ -9,7 +9,7 @@
             </div>
         </c:if>
         <h2>日報管理システムへようこそ</h2>
-        <h3>【自分の日報　一覧】</h3>
+        <h3>【自分の日報一覧】</h3>
         <table id="report_list">
             <tbody>
                 <tr>
@@ -37,7 +37,7 @@
                             <c:out value="${i}" />&nbsp;
                         </c:when>
                         <c:otherwise>
-                            <a href="<c:url value='/?page=${i}' />"><c:out value="${i}" /></a>&nbp;
+                            <a href="<c:url value='/?page=${i}' />"><c:out value="${i}" /></a>&nbsp;
                         </c:otherwise>
                     </c:choose>
                 </c:forEach>
